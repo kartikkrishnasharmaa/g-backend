@@ -61,7 +61,7 @@ app.get("/", (req, res) => {
 app.use("/api/v1/auth", authRoute);
 app.use("/api/v1/product", productRoute);
 app.use("/api/v1/user", userRoute);
-app.use("/api/v1/payment", paymentRoutes);
+app.use("/api/v1/paymentt", paymentRoutes);
 
 // app.use("*", function (req, res) {
 //     res.sendFile(path.join(__dirname, "../client/dist/index.html"));
