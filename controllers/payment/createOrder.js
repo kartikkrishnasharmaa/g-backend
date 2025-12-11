@@ -1,8 +1,6 @@
 import { razorpayInstance } from "../../config/razorpay.js";
 
-export const createOrder = async (req, res) => {
-  RAZORPAY_KEY_ID = "sdkjcs9yyweicuw"
-  
+export const createOrder = async (req, res) => {  
   try {
     const { products } = req.body;
 
