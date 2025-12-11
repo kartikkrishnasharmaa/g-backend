@@ -44,7 +44,7 @@ app.use(
 
 app.use(express.json());
 app.use(morgan("dev"));
-// to send large files
+// to send large filess
 app.use(
     fileUpload({
         limits: { fileSize: 50 * 1024 * 1024 },
